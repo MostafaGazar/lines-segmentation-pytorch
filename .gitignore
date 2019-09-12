@@ -1,0 +1,16 @@
+# Data
+data/processed
+data/cache
+
+# Python
+__pycache__
+.pytest_cache
+.ipynb_checkpoints
+
+# Misc
+.DS_Store
+.idea
+.vscode
+logs/
+
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/Work/notebooks/lines-segmentation-pytorch
+
+pipenv run jupyter lab
