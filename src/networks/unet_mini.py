@@ -10,7 +10,7 @@ class UNetMini(Module):
     def __init__(self, num_classes):
         super(UNetMini, self).__init__()
 
-        # Use padding to mimic `padding='same'` in keras,
+        # Use padding 1 to mimic `padding='same'` in keras,
         # use this visualization tool https://ezyang.github.io/convolution-visualizer/index.html
         self.block1 = Sequential(
             Conv2d(1, 32, kernel_size=3, padding=1),
